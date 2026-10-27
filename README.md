@@ -1,6 +1,6 @@
 # RIOS Business Intelligence Dashboard
 
-Power BI Business Intelligence Solution for Sales Performance and Logistics Analytics.
+Power BI Business Intelligence Solution for Sales Performance and Payment Analytics.
 
 ---
 
@@ -8,12 +8,25 @@ Power BI Business Intelligence Solution for Sales Performance and Logistics Anal
 
 This repository contains a complete Power BI analytics solution developed for the RIOS business case.
 
-The dashboard provides a unified view of sales performance, logistics operations, and key business KPIs through interactive reports and dynamic filtering.
+The dashboard provides a unified view of sales performance, payment analytics, and key business KPIs through interactive reports and dynamic filtering.
+
+## Business Impact
+
+✅ Revenue Analysis
+
+✅ Customer Behavior Insights
+
+✅ Payment Analytics
+
+✅ KPI Monitoring
+
+✅ Executive Reporting
+
 
 ### Main Business Areas
 
 - Sales Analytics
-- Logistics Analytics
+- Payment Analytics
 
 The final dashboard is published as a PDF report.
 
@@ -27,8 +40,8 @@ Build a Business Intelligence solution that helps management:
 
 - monitor sales performance
 - analyze customer and seller activity
-- track logistics efficiency
-- identify operational bottlenecks
+- understand customer payment behavior
+- identify revenue opportunities
 - support data-driven decision making
 
 ---
@@ -37,7 +50,7 @@ Build a Business Intelligence solution that helps management:
 
 ## Sales Analytics Dashboard
 
-<img width="1402" height="807" alt="1" src="https://github.com/user-attachments/assets/51882247-c21b-432e-a46c-838361d0dafd" />
+<img width="1402" height="807" alt="Sales Dashboard" src="https://github.com/user-attachments/assets/51882247-c21b-432e-a46c-838361d0dafd" />
 
 ### Key KPIs
 
@@ -58,24 +71,32 @@ Supports strategic sales planning and performance monitoring.
 
 ---
 
-## Logistics Analytics Dashboard
+## Payments Analytics Dashboard
 
-<img width="1402" height="810" alt="3" src="https://github.com/user-attachments/assets/9a2bf856-63b6-452c-b19f-b67caf287b9d" />
+<img width="1402" height="810" alt="Payments Dashboard" src="https://github.com/user-attachments/assets/9a2bf856-63b6-452c-b19f-b67caf287b9d" />
 
 ### Key KPIs
 
-- On-Time Delivery Rate
-- Average Freight Value
-- Processing Time
-- Full Cycle Time
-- Lead Volume
-- Freight Cost Trends
-- Order Delivery Performance
-- Geographic Seller Distribution
+- Total Payments
+- Installment Orders
+- Full Payment Orders
+- Installment Revenue
+- Full Payment Revenue
+- Total Payment Revenue
+- Payment Method Distribution
+- Product Sales by Payment Type
 
 ### Business Value
 
-Helps identify delivery bottlenecks, optimize transportation performance, and improve operational efficiency.
+Provides insights into customer payment behavior, preferred payment methods, and revenue distribution.
+
+Helps identify the most profitable payment channels and supports financial planning and business growth.
+
+### Key Insights
+
+- Credit card payments represent the largest share of transactions.
+- Installment payments account for a significant portion of total revenue.
+- Product categories demonstrate different purchasing and payment patterns.
 
 ---
 
@@ -102,9 +123,9 @@ All project measures are documented in:
 - Sales Funnel Analysis
 - Revenue Tracking
 - Customer Analytics
-- Logistics Performance Tracking
-- Geographic Analysis
+- Payment Analytics
 - Trend Analysis
+- Business Performance Reporting
 
 ---
 
@@ -120,7 +141,7 @@ model/
 
 images/
 ├── sales_dashboard.png
-├── logistics_dashboard.png
+├── payments_dashboard.png
 
 README.md
 ```
@@ -148,6 +169,8 @@ README.md
 - Power Query
 - Data Visualization
 - Business Storytelling
+- Payment Analytics
+- Sales Analytics
 
 ---
 
